@@ -9,3 +9,8 @@ La staging area permet d'organiser ses fichiers en vue d'un commit. Elle diffèr
 pas définitve et peut être modifier facilement. Les fichiers de la staging area ne représentent pas une version.
 Le working directory contient tous les fichiers alors que la stagin area
 ne contient que les fichiers sélectionnés pour prendre au part au commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Avant de faire un commit, on vérifie que les fichiers modifiés de la staging area ont des différences qui sont liées.
+Sinon, on peut décomposer en plusieurs commit en enlevant par exemple un fichier modifié de la staging area temporairement.
