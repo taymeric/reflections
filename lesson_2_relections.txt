@@ -1,0 +1,11 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git créer les fichiers qui vont permettre de converser l'historique de modification
+des fichiers suivis lors de commit.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+La staging area permet d'organiser ses fichiers en vue d'un commit. Elle diffère d'un commit dans le sens où elle n'est
+pas définitve et peut être modifier facilement. Les fichiers de la staging area ne représentent pas une version.
+Le working directory contient tous les fichiers alors que la stagin area
+ne contient que les fichiers sélectionnés pour prendre au part au commit.
