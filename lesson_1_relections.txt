@@ -1,0 +1,38 @@
+Syntaxe: 
+diff -u fichier1 fichier2
+FC fichier1 fichier2
+
+L'utilisation de la commande "diff" (ou "FC" sous Windows pour File Compare)
+pour comparer deux fichiers permet de localiser les différentes lignes qui
+contiennent des variations entre les deux fichiers.
+
+La commande permet seulement de localiser plus rapidement les différences.
+Elle ne donne pas plus d'indication sur la cause exacte du problème. Une
+différence peut ne pas être problématique s'il y en a plusieurs...
+
+Je viens d'apprendre que Dropbox et Google Drive incluent un système de contrôle
+de version. On peut donc avoir accès à des versions antérieures de nos fichiers...
+
+Réaliser des copies de sauvegarde de fichiers manuellement est un peu primitif.
+Le contrôle de version permet d'automatiser en grande partie le processus. On peut
+donc facilement faire des copies et donc avoir accès à tous les changements qui ont été
+effectués. C'est un processus plus systématique.
+
+Commit: plutôt pour de petits changements, mais pas à chaque petite modification de code.
+Bonne règle: un commit par changement logique pour pouvoir facilement décrire dans le message.
+
+L'avantage de choisir quand faire un commit (par rapport à une sauvegarde automatique selon un
+critère donné) est qu'on peut regrouper les petits changements logiquement liés pour éviter la
+prolifération de versions. On peut par contre oublié de commiter assez tôt. Il faut donc garder
+en tête de le faire et bien réfléchir à la question au cas par cas.
+
+Git permet d'ajouter plusieurs fichiers à un seul commit pour pouvoir créer un lien logique
+entre les fichiers affectés par les changements.
+
+git log me permet d'avoir la liste des différents commmit accompagnés d'un message de description,
+pour les identifier. git diff me permet ensuite de comparer un commit avec son précédent pour
+pouvoir voir les changements apportés.
+
+Avec le contrôle de version, j'ai davantage confiance en ma capacité à réparer les erreurs grâce
+à l'accès facile aux précédentes versions (qui fonctionnent bien).
+ 
