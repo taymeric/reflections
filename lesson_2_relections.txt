@@ -14,3 +14,23 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 Avant de faire un commit, on vérifie que les fichiers modifiés de la staging area ont des différences qui sont liées.
 Sinon, on peut décomposer en plusieurs commit en enlevant par exemple un fichier modifié de la staging area temporairement.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Les branches sont utiles si j'ai une version acceptable et que je veux me lancer dans des changements potentiellement majeurs.
+Elles sont particulièrement utiles lorsque plusieurs personnes collaborent sur le même projet.
+
+How do the diagrams help you visualize the branch structure?
+
+Représenter les branches sous forme de diagramme permet de mieux voir qu'est-ce qui est visible depuis une branche ou un commit
+donné. Cela permet de rendre la structure du repository plus claire.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of a merge is a new branch containing every commit of the two merging branches. The diagram helps us see the
+relationship between branches.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Le merge automatique permet de gagner du temps sur les cas de figures sans ambiguité. Le merge est manuel seulement lorsque
+l'intervention d'un développeur est nécessaire pour lever l'ambiguité.
