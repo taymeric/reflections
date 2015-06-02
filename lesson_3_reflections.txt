@@ -8,3 +8,10 @@ with your remote repository?
 
 Pour éviter d'avoir des modifications de code qui proviennent d'autres personnes et qui pourraient gêner
 ce sur quoi je travaille.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Les forks sont comme des clones de repository mais pour lesquels la configuration est simplifiée. Elles permettent
+de copier un projet en vue de le modifier.
+Les clones permettent de copier des repository locaux ou remote.
+Les branches restent dans un même repo. Elle permettent de modifier un projet avec différentes versions.
