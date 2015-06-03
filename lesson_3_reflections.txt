@@ -15,3 +15,17 @@ Les forks sont comme des clones de repository mais pour lesquels la configuratio
 de copier un projet en vue de le modifier.
 Les clones permettent de copier des repository locaux ou remote.
 Les branches restent dans un même repo. Elle permettent de modifier un projet avec différentes versions.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Cela permet d'anticiper les changements à apporter lors d'un merge éventuel entre les derniers changements
+non intégrés en local et les changements locaux en cours.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Il y aurait beaucoup plus de travail au niveau communication et la moindre erreur pourrait ralentir le processus.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+Lorsqu'on souhaite collaborer avec d'autres personnes sur le projet, cela permet par la suite de leut demander leur
+avis sur un changement.
